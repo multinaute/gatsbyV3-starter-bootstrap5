@@ -7,6 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
     // Add after these plugins if used
