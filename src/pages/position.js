@@ -1,4 +1,5 @@
 import React from "react"
+import { BiHeart } from "react-icons/bi"
 
 const paddingStyle = {
   padding: "10px",
@@ -13,42 +14,53 @@ function Position() {
     <div>
       <h1 className="text-danger">Positioning</h1>
 
-      <div className="d-grid gap-2 bg-dark" style={paddingStyle}>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+      <div className="gap-2 d-grid bg-dark" style={paddingStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Rex
         </div>
-        <div className="bg-danger text-white p-2" style={heightStyle}>
+        <div
+          className="top-0 p-2 text-white position-sticky start-0 bg-danger"
+          style={heightStyle}
+        >
           Dolores
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Bubbles
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Fred
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Rivet
         </div>
       </div>
 
       <hr />
 
-      <div className="d-grid gap-2 bg-dark" style={paddingStyle}>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+      <div className="gap-2 d-grid bg-dark" style={paddingStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Rex
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Dolores
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Bubbles
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Fred
         </div>
-        <div className="bg-secondary text-white p-2" style={heightStyle}>
+        <div className="p-2 text-white bg-secondary" style={heightStyle}>
           Rivet
         </div>
+      </div>
+      <hr />
+      <div className="px-2 py-1 text-white position-relative d-inline-block bg-primary rounded-2">
+        Bubbles
+      </div>
+      <div className="px-2 py-1 text-white position-relative d-inline-block bg-primary rounded-2">
+        Bubbles
+        <BiHeart className="top-0 position-absolute start-100 translate-middle text-danger" />
       </div>
     </div>
   )

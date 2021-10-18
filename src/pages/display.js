@@ -63,7 +63,7 @@ function Display() {
 
       <h4 className="text-secondary">d-grid</h4>
 
-      <div className="d-grid gap-1">
+      <div className="gap-1 d-grid">
         <div className="bg-warning" style={paddingStyle10}>
           Rex
         </div>
