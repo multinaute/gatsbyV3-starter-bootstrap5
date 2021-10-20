@@ -1,3 +1,37 @@
-p {
-  color: blueviolet;
+/* .container {
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
 }
+
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: black;
+}
+
+.site-title {
+  color: gray;
+  font-weight: 700;
+  font-size: 3rem;
+} */
+
+/* .style {
+  width: 100vw;
+  height: 50vh;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center;
+} */
