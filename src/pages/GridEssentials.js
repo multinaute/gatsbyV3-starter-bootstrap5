@@ -38,7 +38,7 @@ function GridEssentials() {
           </div>
         </div>
       </div>
-      <StaticImage
+      {/* <StaticImage
         style={{
           width: "100vw",
           height: "50vh",
@@ -48,7 +48,7 @@ function GridEssentials() {
         }}
         src="https://pixelprowess.com/i/robots-camp.png"
         alt="Robots in Camp"
-      />
+      /> */}
       <div className="container">
         <h4>container</h4>
         <p>
@@ -136,10 +136,10 @@ function GridEssentials() {
         >
           The Robot Roundup Vintage Camper Rally Winds Down
         </h1>
-        <StaticImage
+        {/* <StaticImage
           className="vw-100"
           src="https://pixelprowess.com/i/robots-camp.png"
-          alt="Robots in Camp"
+          alt="Robots in Camp" */}
         />
       </div>
       <div className="container mt-3">

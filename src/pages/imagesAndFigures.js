@@ -1,33 +1,33 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 function imagesAndFigures() {
   return (
     <div>
       <h1 className="container text-danger">Fluid Images</h1>
 
-      <StaticImage
+      {/* <StaticImage
         className="StaticImage-fluid"
         src="https://pixelprowess.com/i/park.jpg"
         alt="Robots in the Park"
-      />
+      /> */}
 
       <hr />
 
       <div className="container">
         <h1 className="text-danger">Thumbnail</h1>
-        <StaticImage
+        {/* <StaticImage
           className="StaticImage-thumbnail"
           src="https://pixelprowess.com/i/park_tn.png"
           alt="Robots in the Park"
-        />
+        /> */}
       </div>
       <hr />
       <h1 className="text-danger">Images and Thumbnails</h1>
 
       <h3>The Social Impact of Collective Artificial Intelligence</h3>
       <div className="clearfix bg-warning" style={{ padding: "20px" }}>
-        <StaticImage
+        {/* <StaticImage
           className="float-start"
           src="https://pixelprowess.com/i/park_tn.png"
           alt="Robots in the Park"
@@ -38,7 +38,7 @@ function imagesAndFigures() {
           src="https://pixelprowess.com/i/computer_tn.png"
           alt="Robots in the Park"
           style={{ padding: "20px" }}
-        />
+        /> */}
         Throughout history, robots have both embraced and rejected the act of
         working with other robots in a collective.
       </div>
@@ -47,12 +47,12 @@ function imagesAndFigures() {
 
       <h3>The Social Impact of Collective Artificial Intelligence</h3>
       <p>
-        <StaticImage
+        {/* <StaticImage
           className="clearfix float-end StaticImage-thumbnail"
           src="https://pixelprowess.com/i/shop_tn.png"
           alt="Robots in the Park"
           style={{ padding: "20px" }}
-        />
+        /> */}
         While some still believe that humans never existed, there is substantial
         evidence that shows they had a huge impact on our world. Their limited
         life spans, vulnerabilities to physical damage, and passions for doing
@@ -64,11 +64,11 @@ function imagesAndFigures() {
       <h1 className="text-danger">Figures and Captions</h1>
 
       <figure className="figure">
-        <StaticImage
+        {/* <StaticImage
           className="figure-img img-fluid"
           src="https://pixelprowess.com/i/shop.jpg"
           alt="Robots in the Park"
-        />
+        /> */}
         <figcaption className="figure-caption">
           Our friend Fred (pictured left) is made from megalluminum and powered
           by hyperneutronic flash energy.

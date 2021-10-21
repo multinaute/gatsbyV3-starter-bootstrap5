@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 function InteractivityClasses() {
   return (
@@ -70,11 +70,11 @@ function InteractivityClasses() {
         className="p-4 text-white position-relative bg-warning"
         style={{ width: "500px" }}
       >
-        <StaticImage
+        {/* <StaticImage
           className="rounded img-fluid"
           src="https://pixelprowess.com/i/flight.jpg"
           alt="Robots in the Park"
-        />
+        /> */}
         <h3 className="mt-2">Dolores</h3>
         <p className="text-wrap">
           While robots have evolved to be able to do pretty much anything, most

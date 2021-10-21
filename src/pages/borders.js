@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 function borders() {
   return (
@@ -200,7 +200,7 @@ function borders() {
 
       <h1 className="text-danger">Thumbnail</h1>
 
-      <h4>rounded</h4>
+      {/* <h4>rounded</h4>
       <StaticImage
         className="rounded img-fluid"
         src="https://pixelprowess.com/i/flight.jpg"
@@ -334,7 +334,7 @@ function borders() {
         class="img-thumbnail shadow-lg"
         src="https://pixelprowess.com/i/flight_tn.png"
         alt="Robots in the Park"
-      />
+      /> */}
 
       <hr />
     </div>
