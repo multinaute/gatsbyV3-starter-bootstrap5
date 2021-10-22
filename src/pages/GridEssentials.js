@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 function GridEssentials() {
   return (
@@ -139,8 +139,8 @@ function GridEssentials() {
         {/* <StaticImage
           className="vw-100"
           src="https://pixelprowess.com/i/robots-camp.png"
-          alt="Robots in Camp" */}
-        />
+          alt="Robots in Camp"
+        /> */}
       </div>
       <div className="container mt-3">
         <p>
